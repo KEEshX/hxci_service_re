@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hxci_service</string>
+    <string name="text_shouye">首页</string>
+    <string name="text_xiaoxi">消息</string>
+    <string name="text_wode">我的</string>
+    <string name="text_gongneng">功能</string>
+</resources>
