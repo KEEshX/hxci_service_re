@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">hxci_service</string>
-    <string name="text_shouye">首页</string>
-    <string name="text_xiaoxi">消息</string>
-    <string name="text_wode">我的</string>
-    <string name="text_gongneng">功能</string>
-    <string name="shouye_houqing01">哈尔滨信息工程学院</string>
-    <string name="shouye_houqing02">后勤服务信息化系统</string>
-    <string name="shouye_houqing03">后勤服务信息化系统</string>
+    <string name="app_name" translatable="false">hxci_service</string>
+    <string name="text_shouye" translatable="false">首页</string>
+    <string name="text_xiaoxi" translatable="false">消息</string>
+    <string name="text_wode" translatable="false">我的</string>
+    <string name="text_gongneng" translatable="false">功能</string>
+    <string name="shouye_houqing01" translatable="false">哈尔滨信息工程学院</string>
+    <string name="shouye_houqing02" translatable="false">后勤服务信息化系统</string>
+    <string name="shouye_houqing03" translatable="false">后勤服务信息化系统</string>
 
 </resources>
