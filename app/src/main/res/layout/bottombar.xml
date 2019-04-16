@@ -21,7 +21,7 @@
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/ic_gongneng"
-        android:text="@string/text_shouye"
+        android:text="@string/text_gongneng"
         android:textSize="18sp"
         android:textColor="@color/textPrimary"
         android:gravity="center_horizontal"/>
