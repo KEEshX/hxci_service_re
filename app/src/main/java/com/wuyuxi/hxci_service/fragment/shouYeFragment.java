@@ -11,21 +11,12 @@ import android.view.ViewGroup;
 
 import com.wuyuxi.hxci_service.R;
 
-public class shouYeFragment  extends Fragment {
-<<<<<<< HEAD
+public class shouYeFragment extends Fragment {
     private ViewPager viewPager;
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-      return inflater.inflate(R.layout.shouye_fragment,container,false);
-=======
-    public shouYeFragment(){
 
-    }
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.shouye_layout,container,false);
->>>>>>> ad6f099b1fdbb956e5b6f6eb779b35b795b89672
+        return inflater.inflate(R.layout.shouye_fragment, container, false);
     }
 }
