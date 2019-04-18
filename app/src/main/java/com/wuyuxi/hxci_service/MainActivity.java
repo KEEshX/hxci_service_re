@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.wuyuxi.hxci_service.fragment.gongNengFragment;
 import com.wuyuxi.hxci_service.fragment.shouYeFragment;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -78,9 +79,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .getColor(R.color.colorPrimary));
                 mgongNeng.setCompoundDrawablesWithIntrinsicBounds(0,
                         R.drawable.ic_gongneng_pressed, 0, 0);
-
                 if (gongNengFragment == null) {
-                    gongNengFragment = new shouYeFragment();
+                    gongNengFragment = new gongNengFragment();
                     transaction.add(R.id.container, gongNengFragment,
                             "gongNengFragment");
                 } else {
