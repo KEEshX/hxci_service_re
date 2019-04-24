@@ -28,7 +28,7 @@
 
         android:layout_height="wrap_content">
             <TextView
-                android:id="@+id/w_gongzuotai"
+                android:id="@+id/gongzuotai"
                 android:gravity="center_horizontal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
         <TextView
             android:layout_marginLeft="5dp"
             android:gravity="center_horizontal"
-            android:id="@+id/w_baoxiu"
+            android:id="@+id/baoxiu"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             />
 
         <TextView
-            android:id="@+id/w_tiaowen"
+            android:id="@+id/tiaowen"
             android:layout_marginLeft="5dp"
             android:gravity="center_horizontal"
             android:layout_width="0dp"
@@ -61,7 +61,7 @@
             android:textSize="18sp"
             />
         <TextView
-            android:id="@+id/w_gonggao"
+            android:id="@+id/gonggao"
             android:layout_marginLeft="5dp"
             android:gravity="center_horizontal"
             android:layout_width="0dp"
@@ -80,7 +80,7 @@
         android:layout_marginLeft="10dp"
         >
         <TextView
-            android:id="@+id/w_xinxi"
+            android:id="@+id/xinxi"
             android:gravity="center_horizontal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
             />
 
         <TextView
-            android:id="@+id/w_tousu"
+            android:id="@+id/tousu"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"

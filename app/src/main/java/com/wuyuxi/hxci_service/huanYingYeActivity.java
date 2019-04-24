@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.wuyuxi.hxci_service.fragment.LoginActivity;
+
 public class huanYingYeActivity extends AppCompatActivity {
     //设置时间为2000
     private static  final int time=2000;
@@ -39,8 +41,7 @@ public class huanYingYeActivity extends AppCompatActivity {
     }
     private  void goHome()
     {
-
-        Intent intent=new Intent(huanYingYeActivity.this,MainActivity.class);
+        Intent intent=new Intent(huanYingYeActivity.this,LoginActivity.class);
         startActivity(intent);
         //结束该页面
         this.finish();
