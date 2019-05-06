@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.wuyuxi.hxci_service.R;
-import com.wuyuxi.hxci_service.Student_Baoxiu_Activity;
+import com.wuyuxi.hxci_service.activity.Student_Baoxiu_Activity;
 import com.wuyuxi.hxci_service.adapter.Shouye_ListViewAdapter;
 import com.wuyuxi.hxci_service.adapter.ViewPageAdapter;
 

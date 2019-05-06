@@ -1,4 +1,4 @@
-package com.wuyuxi.hxci_service.fragment;
+package com.wuyuxi.hxci_service.login;
 
 import android.content.Context;
 import android.content.SharedPreferences;

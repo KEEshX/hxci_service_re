@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.wuyuxi.hxci_service.fragment.LoginActivity;
+import com.wuyuxi.hxci_service.login.LoginActivity;
 
 public class huanYingYeActivity extends AppCompatActivity {
     //设置时间为2000

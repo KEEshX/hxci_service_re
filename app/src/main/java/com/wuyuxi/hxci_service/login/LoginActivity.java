@@ -1,4 +1,4 @@
-package com.wuyuxi.hxci_service.fragment;
+package com.wuyuxi.hxci_service.login;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.wuyuxi.hxci_service.MainActivity;
 import com.wuyuxi.hxci_service.R;
+import com.wuyuxi.hxci_service.fragment.ForgetActivity;
 import com.wuyuxi.hxci_service.huanYingYeActivity;
 
 public class LoginActivity extends AppCompatActivity {

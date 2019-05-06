@@ -1,4 +1,4 @@
-package com.wuyuxi.hxci_service;
+package com.wuyuxi.hxci_service.activity;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -27,6 +27,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.wuyuxi.hxci_service.R;
 import com.wuyuxi.hxci_service.adapter.Baoxiu_ListViewAdapter;
 
 import java.io.File;

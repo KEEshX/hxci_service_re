@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.wuyuxi.hxci_service.MainActivity;
 import com.wuyuxi.hxci_service.R;
+import com.wuyuxi.hxci_service.activity.studentTouSuActivity;
 
 public class gongNengFragment extends Fragment {
     private TextView back, gongzuotai, baoxiu, tiaowen, gonggao, xinxi, tousu;
@@ -69,6 +70,7 @@ public class gongNengFragment extends Fragment {
                     Toast.makeText(getActivity(),"6",Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.tousu:
+                    Intent intent = new Intent(getActivity(),studentTouSuActivity.class);
                     Toast.makeText(getActivity(),"7",Toast.LENGTH_SHORT).show();
                     break;
 
