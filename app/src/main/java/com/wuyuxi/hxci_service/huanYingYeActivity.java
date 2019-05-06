@@ -20,7 +20,6 @@ public class huanYingYeActivity extends AppCompatActivity {
 
         public  void handleMessage(Message msg)
         {
-
             goHome();
         }
     };

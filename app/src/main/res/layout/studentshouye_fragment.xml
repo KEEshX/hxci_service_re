@@ -54,7 +54,7 @@
 
             >
             <TextView
-                android:id="@+id/tiaowen"
+                android:id="@+id/student_tiaowen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/shouye_btn01"
@@ -79,7 +79,7 @@
             android:gravity="center"
             >
             <TextView
-                android:id="@+id/baoxiu"
+                android:id="@+id/student_baoxiu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/shouye_btn02"
@@ -103,7 +103,7 @@
             android:gravity="center"
             >
             <TextView
-                android:id="@+id/gonggao"
+                android:id="@+id/student_gonggao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/shouye_btn03"
@@ -127,7 +127,7 @@
             android:gravity="center"
             >
             <TextView
-                android:id="@+id/gengduo"
+                android:id="@+id/student_gengduo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/shouye_btn04"
