@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:padding="15dp"
+        android:background="#6AC8E4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+
+            android:drawableLeft="@drawable/gn_back"
+            android:text="@string/text_wode"
+            android:textColor="@color/colorLight"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/touxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/touxiang"
+        android:layout_gravity="center"
+       />
+
+<LinearLayout
+    android:padding="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户："
+        android:textColor="#69C8E1"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:id="@+id/yonghu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="201601010601"
+        android:textColor="#69C8E1"
+        android:textSize="30dp"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改密码"
+        android:textColor="#69C8E1"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btntuichu"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shap_baoxiu03"
+        android:padding="15dp"
+        android:text="退出登录"
+        android:textColor="#fff"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用后勤服务系统"
+        android:textColor="#69C8E1"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

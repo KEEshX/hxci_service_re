@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.wuyuxi.hxci_service.R;
 import com.wuyuxi.hxci_service.activity.Student_Baoxiu_Activity;
+import com.wuyuxi.hxci_service.activity.TiaowenActivity;
 import com.wuyuxi.hxci_service.adapter.Shouye_ListViewAdapter;
 import com.wuyuxi.hxci_service.adapter.ViewPageAdapter;
 
@@ -117,13 +118,15 @@ public class shouYeFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
+            Intent intent=null;
             switch (v.getId()){
                 case R.id.student_baoxiu:
-                    Intent intent=new Intent(getContext(),Student_Baoxiu_Activity.class);
+                     intent=new Intent(getContext(),Student_Baoxiu_Activity.class);
                     startActivity(intent);
                     break;
                 case R.id.student_tiaowen:
-                    Toast.makeText(getContext(),"调温添加了监听",Toast.LENGTH_SHORT).show();
+                     intent=new Intent(getContext(), TiaowenActivity.class);
+                    startActivity(intent);
                     break;
                 case R.id.student_gonggao:
                     Toast.makeText(getContext(),"公告添加了监听",Toast.LENGTH_SHORT).show();

@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.wuyuxi.hxci_service.fragment.gongNengFragment;
 import com.wuyuxi.hxci_service.fragment.shouYeFragment;
+import com.wuyuxi.hxci_service.fragment.woDeFragment;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -106,9 +107,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .getColor(R.color.colorPrimary));
                 mwoDe.setCompoundDrawablesWithIntrinsicBounds(0,
                         R.drawable.ic_wode_pressed, 0, 0);
-
                 if (woDeFragment == null) {
-                    woDeFragment = new shouYeFragment();
+                    woDeFragment = new woDeFragment();
                     transaction.add(R.id.container, woDeFragment,
                             "woDeFragment");
                 } else {
