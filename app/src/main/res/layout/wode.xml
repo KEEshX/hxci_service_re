@@ -64,9 +64,9 @@
 
     <Button
         android:id="@+id/btntuichu"
-        android:layout_gravity="center_horizontal"
         android:layout_width="237dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:background="@drawable/shap_baoxiu03"
         android:padding="15dp"

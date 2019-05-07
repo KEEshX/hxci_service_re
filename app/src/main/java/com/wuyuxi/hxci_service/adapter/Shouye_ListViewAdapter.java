@@ -39,7 +39,6 @@ public class Shouye_ListViewAdapter extends BaseAdapter {
      *获取布局中的内容
      *
      */
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         TestViewHolder holder=null;

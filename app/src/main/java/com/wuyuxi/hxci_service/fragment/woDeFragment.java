@@ -23,4 +23,6 @@ public class woDeFragment extends Fragment {
         btntuichu=view.findViewById(R.id.btntuichu);
         return view;
     }
+
+
 }
