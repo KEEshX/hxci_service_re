@@ -33,13 +33,11 @@ public class Tiaowen_ListViewAdapter extends BaseAdapter {
     public long getItemId(int position) {
         return position;
     }
-
     /**
      *
      *获取布局中的内容
      *
      */
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         TestViewHolder holder=null;

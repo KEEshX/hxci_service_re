@@ -10,6 +10,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -20,6 +21,7 @@ import com.wuyuxi.hxci_service.activity.Student_Baoxiu_Activity;
 import com.wuyuxi.hxci_service.activity.TiaowenActivity;
 import com.wuyuxi.hxci_service.adapter.Shouye_ListViewAdapter;
 import com.wuyuxi.hxci_service.adapter.ViewPageAdapter;
+import com.wuyuxi.hxci_service.xinXiFaBuActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -30,6 +32,7 @@ public class shouYeFragment extends Fragment {
     private Shouye_ListViewAdapter listViewAdapter;
     private ListView listView;
     private ImageView imageView;
+    private TextView more_btn3;
     private TextView student_baoxiu;
     private TextView student_tiaowen;
     private TextView student_gonggao;
@@ -61,6 +64,7 @@ public class shouYeFragment extends Fragment {
             view = inflater.inflate(R.layout.studentshouye_fragment, container, false);
             imageView=view.findViewById(R.id.img);
             listView=view.findViewById(R.id.shouye_listview);
+            more_btn3=view.findViewById(R.id.more_btn3);
             student_baoxiu=view.findViewById(R.id.student_baoxiu);
             student_tiaowen=view.findViewById(R.id.student_tiaowen);
             student_gonggao=view.findViewById(R.id.student_gonggao);
@@ -69,6 +73,7 @@ public class shouYeFragment extends Fragment {
             student_tiaowen.setOnClickListener(new TextViewListener());
             student_gonggao.setOnClickListener(new TextViewListener());
             student_gengduo.setOnClickListener(new TextViewListener());
+            more_btn3.setOnClickListener(new TextViewListener());
             handler.post(myRunnable);
             getDate();
             listViewAdapter=new Shouye_ListViewAdapter(getContext(),list);
@@ -133,6 +138,10 @@ public class shouYeFragment extends Fragment {
                     break;
                 case R.id.student_gengduo:
                     Toast.makeText(getContext(),"更多添加了监听",Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.more_btn3:
+                    intent=new Intent(getContext(), xinXiFaBuActivity.class);
+                    startActivity(intent);
                     break;
 
             }

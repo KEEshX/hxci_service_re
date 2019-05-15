@@ -17,10 +17,10 @@ public class TiaowenActivity extends AppCompatActivity {
     private String[] tiaowen_zhuangtai=new String[]{"已完成","已完成","处理中"};
     private ArrayList<HashMap<String,String>> list;
     private Tiaowen_ListViewAdapter listViewAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_tiaowen);
         listView_taiowen=findViewById(R.id.tiaowen_listview);
         getDate();

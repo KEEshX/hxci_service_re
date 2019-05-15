@@ -9,9 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-
 import com.wuyuxi.hxci_service.R;
-
 public class woDeFragment extends Fragment {
     private TextView yonghu;
     private Button btntuichu;
@@ -23,6 +21,4 @@ public class woDeFragment extends Fragment {
         btntuichu=view.findViewById(R.id.btntuichu);
         return view;
     }
-
-
 }

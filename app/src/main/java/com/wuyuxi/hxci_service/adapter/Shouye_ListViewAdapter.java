@@ -33,7 +33,6 @@ public class Shouye_ListViewAdapter extends BaseAdapter {
     public long getItemId(int position) {
         return position;
     }
-
     /**
      *
      *获取布局中的内容
