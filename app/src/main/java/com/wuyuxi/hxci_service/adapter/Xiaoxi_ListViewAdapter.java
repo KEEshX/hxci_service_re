@@ -48,6 +48,7 @@ public class Xiaoxi_ListViewAdapter extends BaseAdapter {
             //通过构造方法获取users布局的id
             holder=new TestViewHolder(view);
             //将Holder中的id信息存储Tag标志中，以用到下一次调用
+
             view.setTag(holder);
         }else{
             view=convertView;

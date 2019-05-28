@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .getColor(R.color.colorPrimary));
                 mxiaoXi.setCompoundDrawablesWithIntrinsicBounds(0,
                         R.drawable.ic_xiaoxi_pressed, 0, 0);
-
+//.
                 if (xiaoXiFragment == null) {
                     xiaoXiFragment = new xiaoXiFragment();
                     transaction.add(R.id.container, xiaoXiFragment,

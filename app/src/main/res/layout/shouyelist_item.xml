@@ -35,7 +35,7 @@
         android:id="@+id/item_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3-13"
+        android:text="3--13"
         android:textSize="16sp"
         />
 </LinearLayout>
