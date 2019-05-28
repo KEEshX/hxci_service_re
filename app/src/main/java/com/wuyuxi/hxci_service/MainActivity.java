@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.wuyuxi.hxci_service.fragment.gongNengFragment;
 import com.wuyuxi.hxci_service.fragment.shouYeFragment;
 import com.wuyuxi.hxci_service.fragment.woDeFragment;
+import com.wuyuxi.hxci_service.fragment.xiaoXiFragment;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -95,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         R.drawable.ic_xiaoxi_pressed, 0, 0);
 
                 if (xiaoXiFragment == null) {
-                    xiaoXiFragment = new shouYeFragment();
+                    xiaoXiFragment = new xiaoXiFragment();
                     transaction.add(R.id.container, xiaoXiFragment,
                             "xiaoXiFragment");
                 } else {

@@ -58,11 +58,11 @@ public class Student_Baoxiu_Activity extends AppCompatActivity {
         img2=findViewById(R.id.img2);
         img3=findViewById(R.id.img3);
         img4=findViewById(R.id.img4);
+        getDate();
         img1.setOnClickListener(new ButtonListener());
         img2.setOnClickListener(new ButtonListener());
         img3.setOnClickListener(new ButtonListener());
         img4.setOnClickListener(new ButtonListener());
-        getDate();
        listViewAdapter=new Baoxiu_ListViewAdapter(this,list);
        baoxiu_listview.setAdapter(listViewAdapter);
     }
