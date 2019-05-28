@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.TiaowenActivity"></activity>
+        <activity android:name=".Xiugaimima"></activity>
+        <activity android:name=".activity.TiaowenActivity" />
         <activity android:name=".huanYingYeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
