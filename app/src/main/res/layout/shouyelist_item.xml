@@ -12,7 +12,7 @@
         android:id="@+id/item_tongzhi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="通        知"
+        android:text="通         知"
         android:textSize="16sp"
         />
     <TextView

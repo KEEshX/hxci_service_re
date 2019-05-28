@@ -54,7 +54,7 @@ public class Xiaoxi_ListViewAdapter extends BaseAdapter {
             //通过getTag信息读取对应的ID值
             holder=(TestViewHolder) view.getTag();
         }
-        //设置通知信息
+        //设置通知信息.
         holder.item_tongzhi.setText(list.get(position).get("tongzhi"));
         //设置通知所对应的内容
         holder.item_content.setText(list.get(position).get("content"));
