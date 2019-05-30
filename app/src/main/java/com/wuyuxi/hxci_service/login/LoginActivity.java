@@ -16,7 +16,8 @@ import com.wuyuxi.hxci_service.huanYingYeActivity;
 
 public class LoginActivity extends AppCompatActivity {
     private TextView username,password,back;
-    private Button btn_login,forget;
+    private TextView forget;
+    private Button btn_login;
     SharedInfo sharedInfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,19 +26,8 @@ public class LoginActivity extends AppCompatActivity {
         username=findViewById(R.id.username);
         password=findViewById(R.id.password);
         btn_login=findViewById(R.id.btn_login);
-        back=findViewById(R.id.back);
         forget=findViewById(R.id.forget);
         sharedInfo=new SharedInfo(this);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(back.isClickable()){
-                    Intent intent=new Intent(LoginActivity.this,huanYingYeActivity.class);
-                    startActivity(intent);
-                    finish();
-                }
-            }
-        });
         forget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

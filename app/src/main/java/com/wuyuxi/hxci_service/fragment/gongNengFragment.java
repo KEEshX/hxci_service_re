@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,7 +17,8 @@ import com.wuyuxi.hxci_service.R;
 import com.wuyuxi.hxci_service.activity.studentTouSuActivity;
 
 public class gongNengFragment extends Fragment {
-    private TextView back, gongzuotai, baoxiu, tiaowen, gonggao, xinxi, tousu;
+    private ImageView back;
+    private TextView  gongzuotai, baoxiu, tiaowen, gonggao, xinxi, tousu;
 
     @Nullable
     @Override

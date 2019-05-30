@@ -4,13 +4,14 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import com.wuyuxi.hxci_service.R;
 import com.wuyuxi.hxci_service.login.LoginActivity;
 
 
 public class ForgetActivity extends AppCompatActivity {
-    private TextView back;
+    private ImageView back;
 
 
     @Override

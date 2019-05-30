@@ -5,20 +5,26 @@
     android:orientation="vertical"
     >
     <LinearLayout
-        android:background="#b1edef"
+        android:padding="15dp"
+        android:background="#6AC8E4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
             android:id="@+id/back"
-            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/back2"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginLeft="10dp"
-            android:gravity="center"
-            android:text="@string/gn_gongneng"
+            android:text="全部功能"
             android:textColor="@color/colorLight"
-            android:drawableLeft="@drawable/gn_back"
-            android:textSize="30sp"
+            android:textSize="20sp"
             />
 
     </LinearLayout>
