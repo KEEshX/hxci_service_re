@@ -2,6 +2,8 @@ package com.wuyuxi.hxci_service.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.wuyuxi.hxci_service.R;
@@ -17,6 +19,7 @@ public class TiaowenActivity extends AppCompatActivity {
     private String[] tiaowen_zhuangtai=new String[]{"已完成","已完成","处理中"};
     private ArrayList<HashMap<String,String>> list;
     private Tiaowen_ListViewAdapter listViewAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,5 +39,8 @@ public class TiaowenActivity extends AppCompatActivity {
             map.put("tiaowen_zhuangtai", tiaowen_zhuangtai[i]);
             list.add(map);
         }
+    }
+    public void tiaowen_back(View view){
+        finish();
     }
 }

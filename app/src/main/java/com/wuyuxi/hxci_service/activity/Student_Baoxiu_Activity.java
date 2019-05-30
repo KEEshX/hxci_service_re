@@ -264,4 +264,7 @@ public class Student_Baoxiu_Activity extends AppCompatActivity {
             Toast.makeText(this, "failed to get image", Toast.LENGTH_SHORT).show();
         }
     }
+    public void back(View view){
+        finish();
+    }
 }

@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import com.wuyuxi.hxci_service.MainActivity;
 import com.wuyuxi.hxci_service.R;
+import com.wuyuxi.hxci_service.activity.Student_Baoxiu_Activity;
+import com.wuyuxi.hxci_service.activity.TiaowenActivity;
 import com.wuyuxi.hxci_service.activity.studentTouSuActivity;
 
 public class gongNengFragment extends Fragment {
@@ -57,22 +59,25 @@ public class gongNengFragment extends Fragment {
                     break;
 //                    Toast.makeText(getActivity(),"1",Toast.LENGTH_SHORT).show();
                 case R.id.gongzuotai:
-                    Toast.makeText(getActivity(),"2",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(),"功能完善中",Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.baoxiu:
-                    Toast.makeText(getActivity(),"3",Toast.LENGTH_SHORT).show();
+                    intent=new Intent(getActivity(),Student_Baoxiu_Activity.class);
+                    startActivity(intent);
                     break;
                 case R.id.tiaowen:
-                    Toast.makeText(getActivity(),"4",Toast.LENGTH_SHORT).show();
+                    intent=new Intent(getActivity(),TiaowenActivity.class);
+                    startActivity(intent);
                     break;
                 case R.id.gonggao:
-                    Toast.makeText(getActivity(),"5",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(),"功能完善中",Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.xinxi:
-                    Toast.makeText(getActivity(),"6",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(),"功能完善中",Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.tousu:
-                    Intent intent = new Intent(getActivity(),studentTouSuActivity.class);
+                    intent = new Intent(getActivity(),studentTouSuActivity.class);
+                    startActivity(intent);
                     Toast.makeText(getActivity(),"7",Toast.LENGTH_SHORT).show();
                     break;
 

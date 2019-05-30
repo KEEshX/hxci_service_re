@@ -1,7 +1,9 @@
 package com.wuyuxi.hxci_service;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 import com.wuyuxi.hxci_service.adapter.Shouye_ListViewAdapter;
@@ -38,5 +40,10 @@ public class xinXiFaBuActivity extends AppCompatActivity {
         }
         listViewAdapter=new Shouye_ListViewAdapter(xinXiFaBuActivity.this,list);
         listView.setAdapter(listViewAdapter);
+    }
+    public void back(View view){
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+
     }
 }

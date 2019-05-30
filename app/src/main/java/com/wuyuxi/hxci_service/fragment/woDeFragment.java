@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.wuyuxi.hxci_service.MainActivity;
 import com.wuyuxi.hxci_service.R;
 
 import com.wuyuxi.hxci_service.Xiugaimima;
@@ -43,5 +45,8 @@ public class woDeFragment extends Fragment {
         return view;
 
     }
-
+    public void back(View view){
+        Intent intent=new Intent(getActivity(),MainActivity.class);
+        startActivity(intent);
+    }
 }
